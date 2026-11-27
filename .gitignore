@@ -1,0 +1,39 @@
+# Maven build output and coverage
+/target/
+/out/
+/coverage/
+*.class
+*.exec
+*.ic
+
+# IntelliJ IDEA and Eclipse
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.settings/
+/.classpath
+/.project
+
+# Local database, logs, and configuration
+/data/
+/logs/
+*.mv.db
+*.trace.db
+*.log
+.env
+.env.*
+!.env.example
+/application-local.*
+/src/main/resources/application-local.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+~$*
+
+# Local coursework documents
+/Отчёт_3_Рачеев.docx
+/практическое задание 3.pdf
